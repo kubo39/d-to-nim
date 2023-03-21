@@ -15,6 +15,7 @@ static:
     doAssert f isnot SomeInteger
     doAssert t is SomeInteger
     doAssert x is SomeInteger
+    doAssert E isnot SomeInteger
     doAssert A isnot SomeInteger
     doAssert bool isnot SomeInteger
 
@@ -26,5 +27,6 @@ static:
     doAssert f isnot SomeOrdinal
     doAssert t is SomeOrdinal
     doAssert x is SomeOrdinal
+    doAssert E is SomeOrdinal
     doAssert A is SomeOrdinal
     doAssert bool is SomeOrdinal
