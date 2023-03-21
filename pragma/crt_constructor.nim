@@ -10,4 +10,4 @@ proc initializer() {.cdecl, codegenDecl: "NIM_POSIX_INIT $# $#$#".} =
   initCount += 1
 
 initializer()
-echo initCount # => "2" (bacause initializer proc is called before C's main function.)
+eecho initCount # => "2" (because initializer proc is called before C's main function.)
