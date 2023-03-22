@@ -2,7 +2,7 @@
 #
 # nim c -r --verbosity:0 conditional_compilation/static_if.nim
 
-template Int(a: typed): typedesc[SomeInteger] =
+template Int(a: typed): typedesc[int16|int32] =
     when a == 32: int32
     elif a == 16: int16
     else: static: doAssert(false)
