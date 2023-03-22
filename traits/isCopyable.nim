@@ -1,7 +1,7 @@
 # https://dlang.org/spec/traits.html#isCopyable
 #
 
-import typetraits
+import std/typetraits
 
 type S = object
 
