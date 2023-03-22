@@ -1,8 +1,6 @@
 # https://dlang.org/spec/type.html#typeof
 #
 
-import std/typetraits
-
 block:
     proc f(i: int) =
         var j: typeof(i)
@@ -17,7 +15,6 @@ block:
         doAssert a is array[0, ptr int]
         static:
             doAssert sizeof(typeof('c')) == 1
-        echo "func"
     doAssert f is proc
     doAssert f is typeof(proc)
 
@@ -41,16 +38,16 @@ block:
 block:
     template t(a: typed): untyped = 0
 
-    doAssert name(typeof(t)) == "template (a: typed): untyped"
+    doAssert $typeof(t) == "template (a: typed): untyped"
 
     block:
         type t1 = typeof(t)
-        doAssert name(typeof(t)) == "t1"
+        doAssert $typeof(t) == "t1"
         doAssert t(t1) == 0
 
     type t2 = typeof(t)
-    doAssert name(typeof(t)) == "t1"
-    doAssert name(t2) == "t2"
+    doAssert $typeof(t) == "t1"
+    doAssert $t2 == "t2"
     doAssert t is t2
 
     doAssert t(t) == 0
