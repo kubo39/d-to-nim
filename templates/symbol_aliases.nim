@@ -16,11 +16,13 @@ block:
 
 
 # typed pattern.
-template Bar(x: typed) =
+template Bar(x: typed, body: untyped) =
     proc incriment = inc x
+    block:
+        body
 
 block:
     var v = 4
-    Bar(v)
-    incriment()
+    Bar(v):
+        incriment()
     doAssert v == 5
