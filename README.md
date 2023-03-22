@@ -16,6 +16,7 @@
 
 ## D
 
+* powerful [alias declaration](https://dlang.org/spec/declaration.html#alias). for example, alias variable, alias template.
 * better compile-time reflection support, see [traits](https://dlang.org/spec/traits.html).
 * powerful template.
   * [alias paramters](https://dlang.org/spec/template.html#aliasparameters)
