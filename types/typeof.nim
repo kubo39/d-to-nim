@@ -11,11 +11,14 @@ block:
         doAssert x is float
         var p: ptr typeof(1)
         doAssert p is ptr
+        doAssert p is ptr int
         var a: array[0, typeof(p)]
         doAssert a is array
+        doAssert a is array[0, ptr int]
         static:
             doAssert sizeof(typeof('c')) == 1
         echo "func"
+    doAssert f is proc
     doAssert f is typeof(proc)
 
 block:
@@ -27,6 +30,7 @@ block:
     doAssert f is typed
     doAssert f is untyped
     doAssert f isnot typedesc
+    doAssert typeof(f) is typedesc
 
 block:
     var i = 1
@@ -51,8 +55,11 @@ block:
 
     doAssert t(t) == 0
 
+    doAssert t is typed
+    doAssert t is untyped
+    doAssert t isnot typedesc
+    doAssert t isnot int
     doAssert typeof(t) is typed
     doAssert typeof(t) is untyped
     doAssert typeof(t) is typedesc
     doAssert typeof(t) isnot int
-
