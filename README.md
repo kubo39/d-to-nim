@@ -26,6 +26,8 @@
 * [Class based OOP](https://dlang.org/spec/class.html) support.
 * [shared](https://dlang.org/spec/const3.html#shared) qualifier.
 * [module constructor/destructor](https://dlang.org/spec/module.html#staticorder) support.
+* better error messages.
+* better gdb support.
 
 ## Nim
 
