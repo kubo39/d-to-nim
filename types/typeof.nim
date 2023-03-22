@@ -46,6 +46,7 @@ block:
 
     type t2 = typeof(t)
     doAssert name(typeof(t)) == "t1"
+    doAssert name(t2) == "t2"
     doAssert t is t2
 
     doAssert t(t) == 0
