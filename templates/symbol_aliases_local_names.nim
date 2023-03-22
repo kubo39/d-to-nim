@@ -1,6 +1,6 @@
 # https://dlang.org/spec/template.html#alias_symbol
 #
-#  nim c -r --verbosity:0 templates/symbol_aliases.nim
+#  nim c -r --verbosity:0 templates/symbol_aliases_local_names.nim
 
 template Foo(x: typed): untyped =
     proc () = inc x
