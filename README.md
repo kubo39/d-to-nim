@@ -10,6 +10,7 @@
 * Basic Templates functionality
 * Iterators (`range` vs `iterator`)
 * Operator Overloading
+* prevents race condition (`shared` vs `guards`)
 * C interop
 * C++ interop
 * Objective-C interop
@@ -24,7 +25,6 @@
   * [recursive templates](https://dlang.org/spec/template.html#recursive_templates)
   * [template constraints](https://dlang.org/spec/template.html#template_constraints)
 * [Class based OOP](https://dlang.org/spec/class.html) support.
-* [shared](https://dlang.org/spec/const3.html#shared) qualifier.
 * [module constructor/destructor](https://dlang.org/spec/module.html#staticorder) support.
 * better error messages.
 * better gdb support.
