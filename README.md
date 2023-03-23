@@ -37,6 +37,7 @@
   * [code block](https://nim-lang.org/docs/manual.html#templates-passing-a-code-block-to-a-template)
 * JavaScript backend.
 * powerful [static statements](https://nim-lang.org/docs/manual.html#statements-and-expressions-static-statementslashexpression) support.
+* powerful [static[T]](https://nim-lang.github.io/Nim/manual.html#special-types-static-t) special type.
 * [distinct type](https://nim-lang.org/docs/manual.html#types-distinct-type) support.
 * Executes an external process at compile-time, see [staticExec](https://nim-lang.org/docs/system.html#staticExec,string,string,string).
 * stdlib which works on RTOS, such as FreeRTOS, NuttX or Zephyr.
