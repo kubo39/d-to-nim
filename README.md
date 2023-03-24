@@ -11,6 +11,8 @@
 * Iterators (`range` vs `iterator`)
 * Operator Overloading
 * prevents race condition (`shared` vs `guards`)
+* compile-time context (`ctfe` vs `nimvm`)
+* Built-in documentation engine.
 * C interop
 * C++ interop
 * Objective-C interop
@@ -36,6 +38,7 @@
   * [typed and untyped parameters](https://nim-lang.org/docs/manual.html#templates-typed-vs-untyped-parameters)
   * [code block](https://nim-lang.org/docs/manual.html#templates-passing-a-code-block-to-a-template)
 * JavaScript backend.
+* [NimScript](https://nim-lang.org/docs/nims.html), based on nimvm, for configuration.
 * powerful [static statements](https://nim-lang.org/docs/manual.html#statements-and-expressions-static-statementslashexpression) support.
 * powerful [static[T]](https://nim-lang.github.io/Nim/manual.html#special-types-static-t) special type.
 * [distinct type](https://nim-lang.org/docs/manual.html#types-distinct-type) support.
