@@ -11,7 +11,7 @@
 * Iterators (`range` vs `iterator`)
 * Operator Overloading
 * prevents race condition (`shared` vs `guards`)
-* compile-time context (`ctfe` vs `nimvm`)
+* compile-time context (`ctfe` vs `nimvm` or `compiletime` pragma)
 * Built-in documentation engine.
 * C interop
 * C++ interop
