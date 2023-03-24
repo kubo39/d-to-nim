@@ -7,7 +7,6 @@
 * Modules
 * Exceptions
 * Conditional Compilation (`static if` vs `when`)
-* Basic Templates functionality
 * Iterators (`range` vs `iterator`)
 * Operator Overloading
 * prevents race condition (`shared` vs `guards`)
@@ -33,8 +32,7 @@
 
 ## Nim
 
-* powerful [macro](https://nim-lang.org/docs/manual.html#macros) system.
-* another powerful template.
+* powerful [macro](https://nim-lang.org/docs/manual.html#macros) and [template](https://nim-lang.github.io/Nim/manual.html#templates) system.
   * [typed and untyped parameters](https://nim-lang.org/docs/manual.html#templates-typed-vs-untyped-parameters)
   * [code block](https://nim-lang.org/docs/manual.html#templates-passing-a-code-block-to-a-template)
 * JavaScript backend.
