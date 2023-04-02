@@ -25,10 +25,12 @@
   * [template constraints](https://dlang.org/spec/template.html#template_constraints)
 * powerful [alias declaration](https://dlang.org/spec/declaration.html#alias). for example, alias variable, alias template.
 * better compile-time reflection support, see [traits](https://dlang.org/spec/traits.html).
-* [Class based OOP](https://dlang.org/spec/class.html) support.
 * [module constructor/destructor](https://dlang.org/spec/module.html#staticorder) support.
+* Laziness of ranges.
+* slightly better semantics of aliasing.
 * better error messages.
 * better gdb support.
+* [Class based OOP](https://dlang.org/spec/class.html) support.
 
 ## Nim
 
